@@ -29,5 +29,14 @@ Okay, back to reality, first things first, if you want to publish a simple GitHu
 - Visual Studio Code offers a [tutorial](https://code.visualstudio.com/docs/introvideos/basics) on their site over the basics of their program. Do not take this tool for granted because it offers a lot of neat stuff! Including extensions avaiable for download within the program to make your life easier, so take advantage!
 - Markdown is a nice light-weight language to get you started but eventually you will want to move on to the main fundamentals of website development, and that is HTMl, CSS, and JavaScript. Here are few resources to become a master at these languages:
     - [W3Schools](https://www.w3schools.com/) will get you started with documentation and exaples of each language
-    - When you feel you have grasped the main concepts of each language, put your skills to the test and [practice](https://html-css-js.com/). This site offers a text editor for you to practice in as well as a cheatsheet and their own helpful links.
+    - When you feel you have grasped the main concepts of each language, put your skills to the test and [practice](https://html-css-js.com/). This site offers a text editor for practice as well as a cheatsheet and the websites own helpful links.
+
+Remember, you have to make mistakes to learn, so don't get stressed over your code, only learn from your mistakes.
+
+![Programming Meme](https://i.pinimg.com/236x/aa/42/e2/aa42e21bf7047a27903f2a45e8f0e84d.jpg)
+<br/>Credit: [Pinterest](https://www.pinterest.com/blueherohost/web-developer-meme/)
+<br/>URL: https://www.pinterest.com/blueherohost/web-developer-meme/
 ## Contributors
+My name is Ashley Stanbridge and I am a senior at Northwest Missouri State Univeristy. I am studying Computer Science and will be graduating with a Bachelor of Science in December of 2019. Please enjoy a picture of the late Mama Cita and I, the only picture that matters.
+
+![Mama and I](https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/53727172_3138719886153532_5523498577411702784_n.jpg?_nc_cat=102&_nc_oc=AQlIXLyrkAKZJffKSezj_0ZbuXpq5FF7a33QccbGjyK2MEuBoieX6_MqMK90_OPisK0&_nc_ht=scontent-ort2-1.xx&oh=600df98f48eed14c6e69ce03e94d65e8&oe=5DD50DAD)
