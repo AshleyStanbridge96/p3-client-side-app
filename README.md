@@ -8,10 +8,11 @@
 This repository will have a sprinkle about myself but the main focus will be teaching the reader what tools and resources they can reference during their adventures through website development.
 ## Recommended Tools
 First things first...I'm the realest (had to drop a 2014 meme on you)
-![Iggy Azalea](https://media.giphy.com/media/vFQ6PiXr6mMxO/giphy.gif)<br/>
-Credit: [Giphy](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwijsfnppabkAhUHXa0KHZWoCJ4QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fgiphy.com%252Fgifs%252Figgy-azalea-vFQ6PiXr6mMxO%26psig%3DAOvVaw1N9NSugnFZBbroOEg_yhXu%26ust%3D1567106701534786&psig=AOvVaw1N9NSugnFZBbroOEg_yhXu&ust=1567106701534786)<br/>
-URL: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwijsfnppabkAhUHXa0KHZWoCJ4QjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fgiphy.com%252Fgifs%252Figgy-azalea-vFQ6PiXr6mMxO%26psig%3DAOvVaw1N9NSugnFZBbroOEg_yhXu%26ust%3D1567106701534786&psig=AOvVaw1N9NSugnFZBbroOEg_yhXu&ust=1567106701534786
-<br/>If you do not understand this reference, please leave this repo immediately and check out this iconic [song](https://www.youtube.com/watch?v=O-zpOMYRi0w). 
+![Iggy Azalea](http://24.media.tumblr.com/9499e538437830c45818c5eb563a6f49/tumblr_n63sci2c1H1r65oxko1_r2_500.gif)<br/>
+Credit: [Tumblr](http://rebloggy.com/post/gif-mine-edit-fancy-clueless-iggy-azalea-cher-horowitz/86739508353)<br/>
+URL: http://rebloggy.com/post/gif-mine-edit-fancy-clueless-iggy-azalea-cher-horowitz/86739508353
+
+If you do not understand this reference, please leave this repo immediately and check out this iconic [song](https://www.youtube.com/watch?v=O-zpOMYRi0w). 
 
 Okay, back to reality, first things first, if you want to publish a simple GitHub page for the world to view you will need a few things:
 ### Tools
@@ -53,6 +54,7 @@ My name is Ashley Stanbridge and I am a senior at Northwest Missouri State Unive
 ![Mama and I](pic-for-GitHub-page.jpg)
 
 Just because I know how much the Internet loves cats, here's another pic of the legend kitty in a perfectly normal and not odd position at all.
+
 <br/>![Mama Cita](mama.jpg)
 
 You're welcome!
