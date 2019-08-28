@@ -39,4 +39,4 @@ Remember, you have to make mistakes to learn, so don't get stressed over your co
 ## Contributors
 My name is Ashley Stanbridge and I am a senior at Northwest Missouri State Univeristy. I am studying Computer Science and will be graduating with a Bachelor of Science in December of 2019. Please enjoy a picture of the late Mama Cita and I, the only picture that matters.
 
-![Mama and I](https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/53727172_3138719886153532_5523498577411702784_n.jpg?_nc_cat=102&_nc_oc=AQlIXLyrkAKZJffKSezj_0ZbuXpq5FF7a33QccbGjyK2MEuBoieX6_MqMK90_OPisK0&_nc_ht=scontent-ort2-1.xx&oh=600df98f48eed14c6e69ce03e94d65e8&oe=5DD50DAD)
+![Mama and I](pic-for-GitHub-page.jpg)
