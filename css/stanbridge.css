@@ -14,8 +14,19 @@ header{
   text-align: center;
 }
 
-p{
+p, ol{
   font-family: Georgia, serif;
+  font-size: 1.5em;
+}
+
+ol{
+  text-align: center;
+  list-style-position: inside;
+}
+
+table, th, td {
+  border: 1px solid black;
+  width: 75%;
 }
 
 hr{
