@@ -4,6 +4,7 @@ aside {
   background-color: rgb(173, 230, 195);
   opacity: 1;
   border-radius: 3rem;
+  float: right;
 }
 
 header{
@@ -26,7 +27,16 @@ ol{
 
 table, th, td {
   border: 1px solid black;
-  width: 75%;
+  width: 30em;
+  height: 3em;
+}
+
+th, tr{
+  text-align: center;
+}
+
+iframe{
+  margin-left: 25rem;
 }
 
 hr{
