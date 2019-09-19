@@ -7,11 +7,18 @@ aside {
   float: right;
 }
 
-.header{
+.header-index{
   background-color: rgb(136, 184, 153);
   padding: 2rem;
   margin-bottom: 5rem;
   margin-top: -3rem;
+  text-align: center;
+}
+
+.header-tipping{
+  background-color: rgb(136, 184, 153);
+  padding: 2rem;
+  margin-bottom: 5rem;
   text-align: center;
 }
 
@@ -43,7 +50,6 @@ hr{
   border-color: black;
   margin: 3rem;
   text-align: center;
-  
 }
 
 h2{
@@ -56,12 +62,20 @@ body {
     color: black;
 }
 
-section {
+.section {
     margin: 1rem;
     padding: 2rem;
     background-color: rgb(173, 230, 195);
     opacity: .9;
   }
+
+.section-tip{
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgb(173, 230, 195);
+  opacity: 1;
+  width: 50em;
+}
 
 
 .img-circle {
@@ -75,4 +89,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
