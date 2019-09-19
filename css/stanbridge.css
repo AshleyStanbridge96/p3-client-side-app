@@ -7,19 +7,12 @@ aside {
   float: right;
 }
 
-.header-index{
+.header{
   background-color: rgb(136, 184, 153);
   padding: 2rem;
   margin-bottom: 5rem;
+  text-align: center;
   margin-top: -3rem;
-  text-align: center;
-}
-
-.header-tipping{
-  background-color: rgb(136, 184, 153);
-  padding: 2rem;
-  margin-bottom: 5rem;
-  text-align: center;
 }
 
 p, ol{
