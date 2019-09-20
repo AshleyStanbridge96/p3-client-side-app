@@ -7,6 +7,10 @@ aside {
   float: right;
 }
 
+#float{
+  background-color: rgb(173, 230, 195);
+}
+
 .header{
   background-color: rgb(136, 184, 153);
   padding: 2rem;
@@ -64,7 +68,7 @@ body {
 
 .section-tip{
   margin: 1rem;
-  padding: 2rem;
+  padding: 5rem;
   background-color: rgb(173, 230, 195);
   opacity: 1;
   width: 50em;
