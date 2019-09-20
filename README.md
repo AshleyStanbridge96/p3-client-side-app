@@ -48,6 +48,15 @@ Remember, you have to make mistakes to learn, so don't get stressed over your co
 ![Programming Meme](https://i.pinimg.com/236x/aa/42/e2/aa42e21bf7047a27903f2a45e8f0e84d.jpg)
 <br/>Credit: [Pinterest](https://www.pinterest.com/blueherohost/web-developer-meme/)
 <br/>URL: https://www.pinterest.com/blueherohost/web-developer-meme/
+## Credit for About Me website
+- Contact form: https://mdbootstrap.com/docs/jquery/forms/contact/
+- Facebook logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjEtu6KnuDkAhVKhq0KHUGnACoQjRx6BAgBEAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFacebook_f_logo_(2019).svg&psig=AOvVaw0jorHDACgIyOBN0XD8lWBB&ust=1569097531774358
+- Github logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLu8CmnuDkAhUHGKwKHWGVCA0QjRx6BAgBEAQ&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw2_YtMMsAofIgBz8l3NSewv&ust=1569097617228160
+- Linkedin Logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiWrd-2nuDkAhUCPq0KHfCWApYQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.atmmarketplace.com%2Fblogs%2F5-ways-your-linkedin-profile-could-be-holding-you-back%2F&psig=AOvVaw2NJR15jgAw-lPdQimURggN&ust=1569097651221169
+- Bitbucket: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwim5bvlneDkAhVIVK0KHUS9C3gQjRx6BAgBEAQ&url=https%3A%2F%2Faug.atlassian.com%2Fevents%2Fdetails%2Fatlassian-washington-dc-presents-all-things-bitbucket%2F&psig=AOvVaw2E4fwF9nPFGuueLj2i82xj&ust=1569097487143309
+- Background image taken by yours truly
+
+
 ## Contributors
 My name is Ashley Stanbridge and I am a senior at Northwest Missouri State University. I am studying Computer Science and will be graduating with a Bachelor of Science degree in December of 2019. Please enjoy a picture of the late Mama Cita and me, the only picture that matters.
 

@@ -1,3 +1,4 @@
+/*Element styles*/
 aside {
   margin: 0 auto;
   padding: 1rem;
@@ -7,16 +8,17 @@ aside {
   float: right;
 }
 
-#float{
+footer{
   background-color: rgb(173, 230, 195);
-}
-
-.header{
-  background-color: rgb(136, 184, 153);
-  padding: 2rem;
-  margin-bottom: 5rem;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  margin-top: -3rem;
+  height: 3em;
+  text-align: center;
+  font-size: 10px;
+  
 }
 
 p, ol{
@@ -59,14 +61,12 @@ body {
     color: black;
 }
 
-.section {
-    margin: 1rem;
-    padding: 2rem;
-    background-color: rgb(173, 230, 195);
-    opacity: .9;
-  }
+/*ID styles*/
+#float{
+  background-color: rgb(173, 230, 195);
+}
 
-.section-tip{
+#section-tip{
   margin: 1rem;
   padding: 5rem;
   background-color: rgb(173, 230, 195);
@@ -74,6 +74,21 @@ body {
   width: 50em;
 }
 
+/*Class styles*/
+.header{
+  background-color: rgb(136, 184, 153);
+  padding: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  margin-top: -3rem;
+}
+
+.section {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(173, 230, 195);
+    opacity: .9;
+  }
 
 .img-circle {
   margin-left: auto;
