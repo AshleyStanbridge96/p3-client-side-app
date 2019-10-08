@@ -1,8 +1,8 @@
 # About-Me
 
 ## Repository Links
-- [Source Site](https://github.com/AshleyStanbridge96/about-me) 
-- [Hosted Site](https://ashleystanbridge96.github.io/about-me/) 
+- [Source Site](https://github.com/AshleyStanbridge96/p3-client-side-app) 
+- [Hosted Site](https://ashleystanbridge96.github.io/p3-client-side-app/) 
 
 ## About
 This repository will have a sprinkle about myself but the main focus will be teaching the reader what tools and resources they can reference during their adventures through website development.
@@ -48,7 +48,7 @@ Remember, you have to make mistakes to learn, so don't get stressed over your co
 ![Programming Meme](https://i.pinimg.com/236x/aa/42/e2/aa42e21bf7047a27903f2a45e8f0e84d.jpg)
 <br/>Credit: [Pinterest](https://www.pinterest.com/blueherohost/web-developer-meme/)
 <br/>URL: https://www.pinterest.com/blueherohost/web-developer-meme/
-## Credit for About Me website
+## Give credit where credit is due:
 - Contact form: https://mdbootstrap.com/docs/jquery/forms/contact/
 - Facebook logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjEtu6KnuDkAhVKhq0KHUGnACoQjRx6BAgBEAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AFacebook_f_logo_(2019).svg&psig=AOvVaw0jorHDACgIyOBN0XD8lWBB&ust=1569097531774358
 - Github logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLu8CmnuDkAhUHGKwKHWGVCA0QjRx6BAgBEAQ&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw2_YtMMsAofIgBz8l3NSewv&ust=1569097617228160
