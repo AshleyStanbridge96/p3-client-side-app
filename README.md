@@ -60,10 +60,10 @@ Remember, you have to make mistakes to learn, so don't get stressed over your co
 ## Contributors
 My name is Ashley Stanbridge and I am a senior at Northwest Missouri State University. I am studying Computer Science and will be graduating with a Bachelor of Science degree in December of 2019. Please enjoy a picture of the late Mama Cita and me, the only picture that matters.
 
-![Mama and I](pic-for-GitHub-page.jpg)
+![Mama and I](./resources/pic-for-GitHub-page.jpg)
 
 Just because I know how much the Internet loves cats, here's another pic of the legend kitty in a perfectly normal and not odd position at all.
 
-<br/>![Mama Cita](mama.jpg)
+<br/>![Mama Cita](./resources/mama.jpg)
 
 You're welcome!
