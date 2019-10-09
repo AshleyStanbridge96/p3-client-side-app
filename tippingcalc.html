@@ -59,7 +59,7 @@
         </header>
 
         <main class="container d-flex justify-content-center">
-            <article class="col-sm-6">
+            <article id ="findTip" class="col-sm-6">
                 <div class="row">
                     <section class="col-md-10" id="section-tip">
                         <!--Start of form-->
@@ -67,8 +67,8 @@
                             <!--Form Group 1: Bill amount-->
                             <div>
                                 <fieldset>
-                                    <label for="bill-amt" class="control-label col-sm-4">Bill Amount</label>
-                                    <input id="bill-amt" name="bill-amt" type="number" placeholder="i.e. 20.50">
+                                    <label for="bill_amt" class="control-label col-sm-4">Bill Amount</label>
+                                    <input v-model = "bill_amt" id="bill_amt" name="bill_amt" type="number" >
                                 </fieldset>
                             </div>
 
@@ -76,7 +76,7 @@
                             <div style="padding: 1em">
                                 <fieldset>
                                     <label for="tip-amt" class="control-label col-sm-4">Tip Amount</label>
-                                    <select id="tipPercent">
+                                    <select v-model = "tipPercent" id="tipPercent">
                                         <option value="0.05">5%</option>
                                         <option value="0.1">10%</option>
                                         <option value="0.15" selected>15%</option>
@@ -91,21 +91,16 @@
                             <div>
                                 <fieldset>
                                     <label for="numPeople" class="control-label col-sm-4">Number of People</label>
-                                    <input id="numPeople" name="numPeople" type="text"
+                                    <input v-model = "numPeople" id="numPeople" name="numPeople" type="text"
                                         placeholder="Maximum of 10 people">
                                 </fieldset>
-                            </div>
-
-                            <!--Calculate button-->
-                            <div style="text-align: center">
-                                <button id="calc-button" type="button">Calculate Tip</button>
                             </div>
                         </form>
 
                         <!--Calculation Output-->
                         <div>
-                            <h4 id="finalTipAmt" style="text-align: center"></h4>
-                            <h4 id="finalTotalAmt" style="text-align: center"></h4>
+                            <h4 style="text-align: center">{{finalTipAmt}}</h4>
+                            <h4 style="text-align: center">{{finalTotalAmt}}</h4>
                         </div>
                     </section>
                 </div>
@@ -178,8 +173,12 @@ crossorigin="anonymous"></script>
 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 crossorigin="anonymous"></script>
 
-<!--Custom script-->
-<script src="stanbridge.js"></script>
+<!--Vue.js library-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+
+<!--Vue Components-->
+<script src="components/tippingCalc.js"></script>
+
 </body>
 
 </html>
