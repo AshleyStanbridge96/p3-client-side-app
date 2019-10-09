@@ -22,7 +22,7 @@ const findTip = new Vue ({
     el: '#findTip',
     data:{
         bill_amt: 20.00,
-        tipPercent: 0.05,
+        tipPercent: 0.15,
         numPeople: 2,
     },
     computed: {

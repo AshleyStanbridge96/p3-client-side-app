@@ -2,31 +2,32 @@
 <html lang="en">
 
 <!--meta, link, and title tags-->
+
 <head>
-        <!--Meta Tags-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="P3 Client-Side App">
-        <meta name="author" content="Ashley Stanbridge">
-    
-        <!--Link Tags-->
-        <!--Font Awesome example-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-        <!--Bootstrap CSS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <!--MD Bootstrap CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
-        <!--Custom CSS-->
-        <link rel="stylesheet" href="./src/main.css">
-    
-        <title>Ashley Stanbridge</title>
-    </head>
-    
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="P3 Client-Side App">
+    <meta name="author" content="Ashley Stanbridge">
+
+    <!--Link Tags-->
+    <!--Font Awesome example-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!--MD Bootstrap CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./src/main.css">
+
+    <title>Ashley Stanbridge</title>
+</head>
+
 <body class="light-blue lighten-5" style="text-align: center">
     <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #00acc1">
@@ -54,130 +55,123 @@
     </nav>
     <!--/.Navbar-->
 
-        <header class="container-fluid header">
-            <h2>Don't be scum, tip the correct sum</h2>
-        </header>
+    <header class="container-fluid header">
+        <h2>Don't be scum, tip the correct sum</h2>
+    </header>
 
-        <main class="container d-flex justify-content-center">
-            <article id ="findTip" class="col-sm-6">
-                <div class="row">
-                    <section class="col-md-10" id="section-tip">
-                        <!--Start of form-->
-                        <form id="tipping-form" name="tipping-form" method="GET" class="form-horizontal">
-                            <!--Form Group 1: Bill amount-->
-                            <div>
-                                <fieldset>
-                                    <label for="bill_amt" class="control-label col-sm-4">Bill Amount</label>
-                                    <input v-model = "bill_amt" id="bill_amt" name="bill_amt" type="number" >
-                                </fieldset>
-                            </div>
-
-                            <!--Form Group 2: Tip percent-->
-                            <div style="padding: 1em">
-                                <fieldset>
-                                    <label for="tip-amt" class="control-label col-sm-4">Tip Amount</label>
-                                    <select v-model = "tipPercent" id="tipPercent">
-                                        <option value="0.05">5%</option>
-                                        <option value="0.1">10%</option>
-                                        <option value="0.15" selected>15%</option>
-                                        <option value="0.2">20%</option>
-                                        <option value="0.25">25%</option>
-                                        <option value="0.3">30%</option>
-                                    </select>
-                                </fieldset>
-                            </div>
-
-                            <!--Form Group 3: Number of People-->
-                            <div>
-                                <fieldset>
-                                    <label for="numPeople" class="control-label col-sm-4">Number of People</label>
-                                    <input v-model = "numPeople" id="numPeople" name="numPeople" type="text"
-                                        placeholder="Maximum of 10 people">
-                                </fieldset>
-                            </div>
-                        </form>
-
-                        <!--Calculation Output-->
+    <main class="container d-flex justify-content-center">
+        <article id="findTip" class="col-sm-6">
+            <div class="row">
+                <section class="col-md-10" id="section-tip" style="padding: 8rem">
+                    <!--Start of form-->
+                    <form id="tipping-form" name="tipping-form" method="GET" class="form-horizontal">
+                        <!--Form Group 1: Bill amount-->
                         <div>
-                            <h4 style="text-align: center">{{finalTipAmt}}</h4>
-                            <h4 style="text-align: center">{{finalTotalAmt}}</h4>
+                            <fieldset>
+                                <label for="bill_amt" class="control-label col-sm-4">Bill Amount</label>
+                                <input v-model="bill_amt" id="bill_amt" name="bill_amt" type="number">
+                            </fieldset>
                         </div>
-                    </section>
-                </div>
-            </article>
+
+                        <!--Form Group 2: Tip percent-->
+                        <div style="padding: 1em">
+                            <fieldset>
+                                <label for="tipPercent" class="control-label col-sm-4">Tip Amount</label>
+                                <select v-model="tipPercent" id="tipPercent">
+                                    <option value="0.05">5%</option>
+                                    <option value="0.1">10%</option>
+                                    <option value="0.15" selected>15%</option>
+                                    <option value="0.2">20%</option>
+                                    <option value="0.25">25%</option>
+                                    <option value="0.3">30%</option>
+                                </select>
+                            </fieldset>
+                        </div>
+
+                        <!--Form Group 3: Number of People-->
+                        <div>
+                            <fieldset>
+                                <label for="numPeople" class="control-label col-sm-4">Number of People</label>
+                                <input v-model="numPeople" id="numPeople" name="numPeople" type="number" max="10" min="1"
+                                    placeholder="Maximum of 10 people">
+                            </fieldset>
+                        </div>
+                    </form>
+
+                    <!--Calculation Output-->
+                    <div>
+                        <h4 style="text-align: center">{{finalTipAmt}}</h4>
+                        <h4 style="text-align: center">{{finalTotalAmt}}</h4>
+                    </div>
+                </section>
+            </div>
+        </article>
     </main>
     <!-- Footer -->
     <footer class="page-footer font-small cyan darken-3 fixed-bottom">
 
-            <!-- Footer Elements -->
-            <div class="container">
-    
-                <!-- Grid row-->
-                <div class="row">
-    
-                    <!-- Grid column -->
-                    <div class="col-md-12 py-5">
-                        <div class="mb-5 flex-center">
-    
-                            <!-- Facebook -->
-                            <a class="fb-ic">
-                                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                            <!-- Twitter -->
-                            <a class="tw-ic">
-                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                            <!-- Google +-->
-                            <a class="gplus-ic">
-                                <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                            <!--Linkedin -->
-                            <a class="li-ic">
-                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                            <!--Instagram-->
-                            <a class="ins-ic">
-                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                            <!--Pinterest-->
-                            <a class="pin-ic">
-                                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-                            </a>
-                        </div>
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-3">
+                    <div class="flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/ashley.stanbridge.3">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- GitHub-->
+                        <a class="gh-ic" href="https://github.com/AshleyStanbridge96">
+                            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic" href="https://www.linkedin.com/in/ashley-stanbridge-65035a171/">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Bitbucket -->
+                        <a class="bb-ic" href="https://bitbucket.org/%7B5c3a386a-95e1-4090-a244-a3f5b5e2b968%7D/">
+                            <i class="fab fa-bitbucket fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
                     </div>
-                    <!-- Grid column -->
-    
                 </div>
-                <!-- Grid row-->
-    
-            </div>
-            <!-- Footer Elements -->
-    
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-            </div>
-            <!-- Copyright -->
-    
-        </footer>
-        <!-- Footer -->
-    
-<!--Bootstrap scripts-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-crossorigin="anonymous"></script>
+                <!-- Grid column -->
 
-<!--Vue.js library-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+            </div>
+            <!-- Grid row-->
 
-<!--Vue Components-->
-<script src="components/tippingCalc.js"></script>
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-2">
+            © 2019 Copyright: Ashley Stanbridge
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!--Bootstrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--Vue.js library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+
+    <!--Vue Components-->
+    <script src="components/tippingCalc.js"></script>
 
 </body>
 
