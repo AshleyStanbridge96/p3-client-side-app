@@ -7,12 +7,6 @@ aside {
   float: right;
 }
 
-.navbar{
-  min-height: 80px;
-  font-size: 2em;
-}
-
-
 p, ol{
   font-family: Georgia, serif;
   font-size: 1.5em;
@@ -77,6 +71,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   }
+
+.navbar{
+  min-height: 80px;
+  font-size: 2em;
+}
 
 
 
