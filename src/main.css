@@ -2,24 +2,16 @@
 aside {
   margin: 0 auto;
   padding: 1rem;
-  background-color: rgb(173, 230, 195);
   opacity: 1;
   border-radius: 3rem;
   float: right;
 }
 
-footer{
-  background-color: rgb(173, 230, 195);
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  height: 3em;
-  text-align: center;
-  font-size: 10px;
-  
+.navbar{
+  min-height: 80px;
+  font-size: 2em;
 }
+
 
 p, ol{
   font-family: Georgia, serif;
@@ -34,11 +26,12 @@ ol{
 table, th, td {
   border: 1px solid black;
   width: 30em;
-  height: 3em;
+  height: 4em;
 }
 
 th, tr{
   text-align: center;
+  font-size: 5em;
 }
 
 iframe{
@@ -66,17 +59,8 @@ body {
   background-color: rgb(173, 230, 195);
 }
 
-#section-tip{
-  margin: 1rem;
-  padding: 5rem;
-  background-color: rgb(173, 230, 195);
-  opacity: 1;
-  width: 50em;
-}
-
 /*Class styles*/
 .header{
-  background-color: rgb(136, 184, 153);
   padding: 2rem;
   margin-bottom: 5rem;
   text-align: center;
@@ -86,7 +70,6 @@ body {
 .section {
     margin: 1rem;
     padding: 2rem;
-    background-color: rgb(173, 230, 195);
     opacity: .9;
   }
 
@@ -95,12 +78,6 @@ body {
   margin-right: auto;
   }
 
-.background{
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
