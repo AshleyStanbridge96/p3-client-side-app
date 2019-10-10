@@ -1,3 +1,5 @@
+QUnit.module('MAIN MODULE', {calcTotal, calcTip})
+
 QUnit.test( "TEST calcTotal", assert => {
     assert.equal(calcTotal(20, .05, 2),10.5, "Normal input");
     assert.equal(calcTotal(-20, .15, -10),2.3, "Negative inputs")
