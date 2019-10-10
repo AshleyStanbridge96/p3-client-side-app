@@ -30,7 +30,7 @@
 </head>
 
 <body class="light-blue lighten-5" style="text-align: center">
-    
+
     <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #00acc1">
 
@@ -105,6 +105,7 @@
                     <div>
                         <h4 style="text-align: center">{{finalTipAmt}}</h4>
                         <h4 style="text-align: center">{{finalTotalAmt}}</h4>
+                        <button id="restBttn" class="block">Reset local storage count</button>
                     </div>
                 </section>
             </div>
@@ -175,6 +176,34 @@
 
     <!--Vue Components-->
     <script src="components/tippingCalc.js"></script>
+
+    <script>
+        /* global localStorage */
+        console.log('Loading window')
+        window.addEventListener('load', (event) => {
+            let count = localStorage.getItem('onLoadCount');
+
+            if (count === null) {
+                count = 0;
+            }
+
+            count++;
+
+            console.log('Setting item')
+            localStorage.setItem("onLoadCount", count);
+            console.log('The number of times this page has been loaded: ' + count)
+
+
+            document.querySelector('#restBttn').addEventListener('click', () => {
+                    console.log('Clearing count')
+                    localStorage.removeItem('onLoadCount');
+                    console.log('Local storage count set to 0')
+
+        })
+        
+    }) 
+    </script>
+
 
 </body>
 
