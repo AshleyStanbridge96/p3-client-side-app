@@ -1,18 +1,31 @@
 
-const jokeURI = 'http://cors-anywhere.herokuapp.com/https://catfact.ninja/fact'
+const jokeURI = 'http://numbersapi.com/random/trivia'
+/*{
+    "fact": "string",
+    "length": 0
+  }
+*/
 
 // fetch information
 const getJoke = async () => {
     try {
         const response = await fetch(jokeURI)
-        const obj = await response.json()        
-        console.log(`FETCHED. Response JSON ${obj}`)
-        const joke = obj.joke
+        console.log(response)
+        const obj = await response.text()        
+        console.log(`FETCHED. Response text ${obj}`)
+        const joke = obj
         return joke
     } catch (error) {
         console.error(error)
     }
 }
+
+const getFact = () =>{
+
+    const fact = ''
+    return fact
+}
+
 
 // interact with DOM
 const updateWithJoke = async (event) => {
