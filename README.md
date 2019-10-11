@@ -54,7 +54,6 @@ Remember, you have to make mistakes to learn, so don't get stressed over your co
 - Github logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLu8CmnuDkAhUHGKwKHWGVCA0QjRx6BAgBEAQ&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw2_YtMMsAofIgBz8l3NSewv&ust=1569097617228160
 - Linkedin Logo: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiWrd-2nuDkAhUCPq0KHfCWApYQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.atmmarketplace.com%2Fblogs%2F5-ways-your-linkedin-profile-could-be-holding-you-back%2F&psig=AOvVaw2NJR15jgAw-lPdQimURggN&ust=1569097651221169
 - Bitbucket: https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwim5bvlneDkAhVIVK0KHUS9C3gQjRx6BAgBEAQ&url=https%3A%2F%2Faug.atlassian.com%2Fevents%2Fdetails%2Fatlassian-washington-dc-presents-all-things-bitbucket%2F&psig=AOvVaw2E4fwF9nPFGuueLj2i82xj&ust=1569097487143309
-- Background image taken by yours truly
 
 
 ## Contributors
