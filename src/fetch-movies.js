@@ -1,63 +1,23 @@
+/*Note to grader: This code is covered in comments for my beneift only. I know having code with a lot of comments is not desired
+but I need this for reference in later assignments*/
 
-const jokeURI = 'http://numbersapi.com/random/trivia'
-/*{
-    "fact": "string",
-    "length": 0
-  }
-*/
+const factURI = 'http://numbersapi.com/random/trivia'
 
 // fetch information
-const getJoke = async () => {
+const getFact = async () => {
     try {
-        const response = await fetch(jokeURI)
+        //Response is fetching API URL but also waits in case it takes longer than expected
+        const response = await fetch(factURI)
+        //Logging response
         console.log(response)
-        const obj = await response.text()        
+        //obj holds the value of the fetch, .text is what it is expecting to retrieve (usually .json())
+        const obj = await response.text()
+        //Logging fetch and displaying value of object       
         console.log(`FETCHED. Response text ${obj}`)
-        const joke = obj
-        return joke
+        //Joke equals the string obj, usually it would be joke = obj.joke where .joke is the property you want 
+        //from the json file, but here we only have a string, so the extra .joke is not necessary
+        return obj
     } catch (error) {
-        console.error(error)
-    }
-}
-
-const getFact = () =>{
-
-    const fact = ''
-    return fact
-}
-
-
-// interact with DOM
-const updateWithJoke = async (event) => {
-    try {
-        document.getElementById('result').innerHTML = ''
-        const answer = await getJoke()
-        document.getElementById('result').innerHTML = answer
-    } catch (error) {
-        console.error(error)
-    }
-}
-
-document.addEventListener('click', event => {
-    if(event.target && event.target.id === 'getMovieButton'){
-        updateWithJoke(event)
-    }
-})
-
-
-/*
-const numberURI = 'http://cors-anywhere.herokuapp.com/numbersapi.com/42/math?callback=showNumber'
-
-// fetch information
-const getNumFact = async () => {
-    try {
-        const response = await fetch(numberURI)
-        const obj = await response.json()
-        console.log(`FETCHED. Response JSON ${obj}`)
-        const numFact = obj.value.numFact || 'No fact for you.'
-        return numFact
-    }
-    catch (error) {
         console.error(error)
     }
 }
@@ -65,26 +25,22 @@ const getNumFact = async () => {
 // interact with DOM
 const updateWithFact = async (event) => {
     try {
-        document.querySelector('#result').innerHTML = ''
-        const answer = await getNumFact()
-        document.querySelector('#result').innerHTML = answer
-    }
-    catch (error) {
+        /*Do not need this extra line, I believe it is setting up a 
+        string via '' so the obj will be displayed within a string
+        //document.getElementById('result').innerHTML = ''
+        */
+
+        //answer is calling the getFact() function and storing the answer
+        const answer = await getFact()
+        document.getElementById('result').innerHTML = answer
+    } catch (error) {
         console.error(error)
     }
 }
 
-
-    function showNumber(str) {
-        const str = await showNumber()
-        document.querySelector('#result').innerHTML = str;
+//Adding event listener for button
+document.addEventListener('click', event => {
+    if (event.target && event.target.id === 'getFactButton') {
+        updateWithFact(event)
     }
-
-    (function updateWithJoke() {
-        var scriptTag = document.createElement('script');
-        scriptTag.async = true;
-        scriptTag.src = "http://numbersapi.com/42/math?callback=showNumber";
-        document.body.appendChild(scriptTag);
-    })
-    ();
-*/
+})
