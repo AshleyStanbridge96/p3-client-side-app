@@ -19,8 +19,10 @@ ol{
 
 table, th, td {
   border: 1px solid black;
-  width: 30em;
+  width: 25em;
+  /*
   height: 4em;
+  */
 }
 
 th, tr{

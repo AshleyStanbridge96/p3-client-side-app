@@ -63,15 +63,15 @@
     </header>
 
     <main class="container d-flex justify-content-center">
-        <article id="findTip" class="col-sm-6">
-            <div class="row">
-                <section class="col-md-10" id="section-tip" style="padding: 8rem">
+        <div class="row">
+            <article id="findTip" class="col-xl-12">
+                <section class="col-xl-12" id="section-tip" style="padding: 8rem">
                     <!--Start of form-->
                     <form id="tipping-form" name="tipping-form" method="GET" class="form-horizontal">
                         <!--Form Group 1: Bill amount-->
                         <div>
                             <fieldset>
-                                <label for="bill_amt" class="control-label col-sm-4">Bill Amount</label>
+                                <label for="bill_amt" class="control-label col-md-5">Bill Amount</label>
                                 <input v-model="bill_amt" id="bill_amt" name="bill_amt" type="number" min="5">
                             </fieldset>
                         </div>
@@ -79,7 +79,7 @@
                         <!--Form Group 2: Tip percent-->
                         <div style="padding: 1em">
                             <fieldset>
-                                <label for="tipPercent" class="control-label col-sm-4">Tip Amount</label>
+                                <label for="tipPercent" class="control-label col-md-5">Tip Amount</label>
                                 <select v-model="tipPercent" id="tipPercent">
                                     <option value="0.05">5%</option>
                                     <option value="0.1">10%</option>
@@ -94,7 +94,7 @@
                         <!--Form Group 3: Number of People-->
                         <div>
                             <fieldset>
-                                <label for="numPeople" class="control-label col-sm-4">Number of People</label>
+                                <label for="numPeople" class="control-label col-md-5">Number of People</label>
                                 <input v-model="numPeople" id="numPeople" name="numPeople" type="number" max="10"
                                     min="1" placeholder="Maximum of 10 people">
                             </fieldset>
@@ -108,7 +108,7 @@
                         <button id="restBttn" class="block">Reset local storage count</button>
                     </div>
                 </section>
-            </div>
+        </div>
         </article>
     </main>
     <!-- Footer -->
@@ -195,13 +195,13 @@
 
 
             document.querySelector('#restBttn').addEventListener('click', () => {
-                    console.log('Clearing count')
-                    localStorage.removeItem('onLoadCount');
-                    console.log('Local storage count set to 0')
+                console.log('Clearing count')
+                localStorage.removeItem('onLoadCount');
+                console.log('Local storage count set to 0')
 
-        })
-        
-    }) 
+            })
+
+        }) 
     </script>
 
 
