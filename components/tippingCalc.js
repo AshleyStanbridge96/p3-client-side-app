@@ -31,7 +31,7 @@ const findTip = new Vue ({
             const tipAmt = parseFloat(this.tipPercent)
             const numPeople = parseInt(this.numPeople)
 
-            const tipTotal = Math.round(calcTip(billAmt, tipAmt, numPeople) * 100) / 100;
+            const tipTotal = (Math.round(calcTip(billAmt, tipAmt, numPeople) * 100) / 100).toFixed(2);
             return `Tip Total: $ ${tipTotal}`
         },
         finalTotalAmt: function(){
@@ -39,7 +39,7 @@ const findTip = new Vue ({
             const tipAmt = parseFloat(this.tipPercent)
             const numPeople = parseInt(this.numPeople)
 
-            const billTotal = Math.round(calcTotal(billAmt, tipAmt, numPeople) * 100) / 100;
+            const billTotal = (Math.round(calcTotal(billAmt, tipAmt, numPeople) * 100) / 100).toFixed(2);
             return `Bill Total: $ ${billTotal}`
         }
     }
